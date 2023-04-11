@@ -1,0 +1,57 @@
+## Clone the repo
+Git clone
+
+## Create a branch and checkout into it
+Git branch branch_name
+Git checkout branch_name
+
+## create and checkout branch
+git checkout -b branch_name
+
+## edit the file in the branch and add commit it
+git add .
+Git commit -m «comment»
+
+## create a branch in the gH and push update
+
+
+
+## to push only 
+Git push
+
+## after edit the main from gH pull it into misc main
+Git pull
+
+## rebase the branch above the main
+Git rebase branchname_ main 
+
+## force push the branch
+git push --force
+
+## create pull request in GH
+
+## solve conflict
+
+## merge
+
+## Delete the branch after merge
+Git branch -D branch name
+
+## pull the main branch from GH to vic
+Git pull
+
+
+## delete last commit
+git reset --hard HEAD~1
+
+Option ^ to write       ~.   
+Shift option to write   \
+
+
+## change commit for not pushed commit
+git commit --amend -m "New commit message."
+
+## change commit for pushed commit
+git commit --amend -m "New commit message."
+git push --force
+
